@@ -1,7 +1,6 @@
 <template>
   <div id="app">
     <router-view/>
-    <NavButtons/>
   </div>
 </template>
 
@@ -27,6 +26,11 @@
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
+   min-height: 100vh;
+   background: #8A2387;  /* fallback for old browsers */
+   background: -webkit-linear-gradient(to right, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+   background: linear-gradient(to right, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
 }
 
 #nav {
@@ -41,4 +45,6 @@
     }
   }
 }
+
+
 </style>

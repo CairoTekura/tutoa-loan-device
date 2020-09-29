@@ -1,34 +1,48 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
-import Home from '../views/Home.vue'
-import About from '../views/About.vue'
-import Feature1 from '../views/Feature1.vue'
-import Feature2 from '../views/Feature2.vue'
+import Loan from '../views/Loan.vue'
+import Students from '../views/Students.vue'
+import Chromebooks from '../views/Chromebooks.vue'
+import Return from '../views/Return.vue'
+import Confirmation from '../views/Confirmation.vue'
+import TaiohiDevices from '../views/TaiohiDevices.vue'
 
 Vue.use(VueRouter)
 
   const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Loan',
+    component: Loan
   },
   {
-    path: '/about',
-    name: 'About',
-  component: About
+    path: '/return',
+    name: 'Return',
+    component: Return
+  },
+  {
+    path: '/Students',
+    name: 'Students',
+    component: Students
   },
 
   {
-    path: '/Feature1',
-    name: 'Feature1',
-  component: Feature1
+    path: '/Chromebooks',
+    name: 'Chromebooks',
+    component: Chromebooks
   },
+
   {
-    path: '/Feature2',
-    name: 'Feature2',
-  component: Feature2
-  }
+    path: '/Confirmation',
+    name: 'Confirmation',
+    component: Confirmation
+  },
+
+  {
+    path: '/TaiohiDevices',
+    name: 'TaiohiDevices',
+    component: TaiohiDevices
+  },
 ]
 
 const router = new VueRouter({

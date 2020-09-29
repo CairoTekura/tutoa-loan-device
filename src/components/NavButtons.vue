@@ -1,7 +1,7 @@
 <template>
      <div id="nav">
 
-         <div class="navContainer">
+         <!-- <div class="navContainer">
             <router-link to="/">
                 <img class="icon" alt="home icon" src="../assets/home button.png"/>
             </router-link>
@@ -23,7 +23,7 @@
             <router-link to="/Feature2">
                 <img class="icon" alt="home icon" src="../assets/trophy.png"/>
             </router-link>
-        </div>
+        </div> -->
 
     </div>
 
